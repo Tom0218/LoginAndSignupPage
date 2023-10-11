@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(137, 129, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-5 {
+  display: flex;
+  align-items: center;
+}
+.line-5 a {
+  margin-left: 20px;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+button {
+  margin-left: 60px;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

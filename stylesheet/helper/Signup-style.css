@@ -1,20 +1,51 @@
 body {
   height: 100vh;
   margin: 0;
-  background-color: gray;
+  background-color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mainArea{
+  width: 30%;
+}
+
+.mainArea  input{
+  height: 40px;
+  width: 97%;
+  font-size: 18pt;
 }
 
 h1 {
   text-align: center;
 }
 
-#end {
+button {
+  background-color: whitesmoke;
+  margin-top: 5%;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
   text-align: center;
 }
 
-.Signupbtnbox {
+button:hover{
+  color: white;
+  background-color: black;
+}
+
+a{
+  background-color: whitesmoke;
+  display: block;
+  width: 100%;
+  color: black;
+  text-decoration: none;
   text-align: center;
-}/*# sourceMappingURL=Signup-style.css.map */
+  justify-content: end;
+  margin-top: 2%;
+}

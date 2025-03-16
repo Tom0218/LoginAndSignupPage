@@ -1,27 +1,54 @@
 body {
   height: 100vh;
   margin: 0;
-  background-color: rgb(137, 129, 129);
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.line-5 {
-  display: flex;
-  align-items: center;
+.mainArea{
+  width: 30%;
 }
-.line-5 a {
-  margin-left: 20px;
-  text-decoration: none;
-  background-color: white;
-  border-radius: 5px;
-  color: black;
+
+.mainArea  input{
+  height: 40px;
+  width: 97%;
+  font-size: 18pt;
+}
+
+.mainArea h1{
+  display: flex;
+  justify-content: center;
 }
 
 button {
-  margin-left: 60px;
-  width: 60px;
+  background-color: whitesmoke;
+  margin-top: 5%;
+  display: block;
+  width: 100%;
+  height: 40px;
   border-radius: 5px;
   border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
+
+button:hover{
+  color: white;
+  background-color: black;
+}
+
+a{
+  background-color: whitesmoke;
+  display: block;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  justify-content: end;
+  margin-top: 2%;
+}
+
+
